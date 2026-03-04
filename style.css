@@ -623,4 +623,13 @@ button:hover{
     height:70px;
   }
 
+
+}
+@media (max-width:480px){
+
+  .name{
+    font-size:30px;
+    line-height:1.1;
+  }
+
 }
