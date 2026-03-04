@@ -560,7 +560,7 @@ button:hover{
 }
 .name{
   position:relative;
-  overflow:hidden;
+  overflow:visible;   /* 👈 CAMBIA ESTO */
 }
 
 .name::after{
@@ -630,6 +630,7 @@ button:hover{
   .name{
     font-size:30px;
     line-height:1.1;
+    white-space:normal;   /* 👈 AGREGA ESTO */
   }
 
 }
